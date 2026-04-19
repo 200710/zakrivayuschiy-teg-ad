@@ -241,12 +241,6 @@
   animation: sparks-animation 0.5s ease-in-out forwards;
 }
 
-@keyframes sparks-animation {
-  0% { opacity: 0; transform: scale(0.5); }
-  50% { opacity: 1; transform: scale(1); }
-  100% { opacity: 0; transform: scale(1.2); }
-}
-
 .dialog {
   padding: 30px;
   background-color: var(--bg-color);

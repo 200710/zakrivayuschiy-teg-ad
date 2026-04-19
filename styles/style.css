@@ -283,14 +283,30 @@
   background-color: rgb(0 0 0 / 0.75);
 }
 
-.filter-original { filter: none; }
-.filter-midnight { filter: brightness(0.4) contrast(1.2) hue-rotate(200deg); }
-.filter-neon { filter: saturate(4) brightness(1.1) hue-rotate(270deg); }
-.filter-rose-glasses { filter: sepia(0.5) hue-rotate(300deg) saturate(2); }
-.filter-invert { filter: invert(1); }
-.filter-sepia { filter: sepia(1); }
-.filter-blur { filter: blur(4px); }
-.filter-mist { filter: blur(2px) brightness(1.4) opacity(0.8); }
+.filter-original { 
+  filter: none; 
+}
+.filter-midnight { 
+  filter: brightness(0.4) contrast(1.2) hue-rotate(200deg); 
+}
+.filter-neon { 
+  filter: saturate(4) brightness(1.1) hue-rotate(270deg); 
+}
+.filter-rose-glasses { 
+  filter: sepia(0.5) hue-rotate(300deg) saturate(2); 
+}
+.filter-invert { 
+  filter: invert(1); 
+}
+.filter-sepia { 
+  filter: sepia(1); 
+}
+.filter-blur { 
+  filter: blur(4px); 
+}
+.filter-mist { 
+  filter: blur(2px) brightness(1.4) opacity(0.8); 
+}
 
 @media (width <= 375px) {
   .header { padding-block: 120px 40px; }

@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font: 'Inter', sans-serif;
-  --accent-font: 'PressStart2P', cursive;
-  
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", cursive;
+
   --fw-reg: 400;
   --fw-bold: 700;
   --main-font-weight: var(--fw-reg);
@@ -19,7 +19,7 @@
 
   --header-padding: clamp(120px, 15vh, 136px) clamp(10px, 5vw, 20px);
   --header-logo-size: clamp(3.0625rem, 8vw, 4.0625rem);
-  
+
   --card-gap: 50px;
   --content-bottom-margin: 100px;
 
@@ -27,15 +27,15 @@
   --grid-thickness: 2px;
   --grid-step: 4px;
 
-  --bg-image: 
+  --bg-image:
     repeating-linear-gradient(
-      to right, 
-      var(--grid-color) 0 var(--grid-thickness), 
+      to right,
+      var(--grid-color) 0 var(--grid-thickness),
       transparent var(--grid-thickness) var(--grid-step)
     ),
     repeating-linear-gradient(
-      to bottom, 
-      var(--grid-color) 0 var(--grid-thickness), 
+      to bottom,
+      var(--grid-color) 0 var(--grid-thickness),
       transparent var(--grid-thickness) var(--grid-step)
     ),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
